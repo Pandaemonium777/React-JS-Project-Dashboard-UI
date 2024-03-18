@@ -1,0 +1,92 @@
+.main-container{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.board-container{
+    background-color: black;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-heading{
+    font-size: 64px;
+    color: white;
+}
+
+.login-form-container{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d3cede;
+}
+.main-login-form{
+    width: 30vw;
+    min-height:30vh;
+}
+.main-option-container{
+    display: flex;
+    flex-direction: row;
+}
+.option-text{
+    font-size: 12px;
+    padding: 3px;
+    background-color: white;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+.main-form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 16px;
+    width: 260px;
+    border-radius: 16px;
+}
+
+.main-input{
+    width:230px;
+    border:none;
+    background-color: #d3cede;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 24px;
+    border-radius: 8px;
+}
+
+.forgot-password{
+    color:blue;
+    font-size:12px;
+}
+
+.sign-in-button{
+    background-color: black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width:230px;
+    height: 32px;
+    border-radius: 8px;
+    border:none;
+    color:#d3cede;
+}
+
+.dont{
+    font-size:12px;
+}
+.dont-have{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+}
